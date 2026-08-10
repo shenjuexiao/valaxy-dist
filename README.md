@@ -1,2 +1,1 @@
-# valaxy-dist
-valaxy-dist
+# valaxy-dist.shenjuexiao.com
