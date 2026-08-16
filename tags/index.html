@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'en';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.EpiRtz05.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.hePW80VL.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CSzCw9LZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DPiClx16.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.4BejMmlS.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.DUgotgTK.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BB0vZneo.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.tk2ilLxq.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Dew4DlVv.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DRX28IWG.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.tk2ilLxq.js">
+<link rel="modulepreload" crossorigin href="/assets/tags.DQgErL1g.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Site</title>
+<meta property="og:locale:alternate" content="zh-CN">
+<meta name="description" content="My documentation site powered by Valaxy.">
+<meta property="og:description" content="My documentation site powered by Valaxy.">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="My Site">
+<meta property="og:title" content="My Site">
+<meta property="og:image" content="/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.0.0-rc.6">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="layout antialiased"><nav w="full" class="press-nav relative md:fixed md:z-99 font-bold"><div class="pr-navbar flex justify-between items-center pl-4 pr-2 has-sidebar"><a href="/" class="pr-navbar-brand text-xl flex justify-center items-center font-black gradient-text from-purple-800 to-blue-500 bg-gradient-to-r" aria-label="My Site"><!----><span class="pr-navbar-title inline-flex">My Site</span></a><div class="pr-navbar-actions self-stretch flex justify-center items-center text-sm leading-5"><div class="VPNavBarSearch" p="x-2"><!--[--><button class="press-search-btn" title="Search" data-v-b21be026><div class="press-search-btn-content" data-v-b21be026><svg class="press-search-btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-b21be026><path d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill="currentColor" data-v-b21be026></path></svg></div></button><!--teleport start--><!--teleport end--><!--]--></div><div class="pr-nav-bar-menu flex" h="full" p="x-2" data-v-a98b6fe2><!--[--><!--[--><a href="/" class="va-link press-nav-item-link flex justify-center items-center px-2" rel="noopener" data-v-a98b6fe2 data-v-aa487131><!--[-->Home<!--]--></a><!--]--><!--]--></div><div class="flex items-center" h="full" p="x-2"><button title="Change languages" data-v-07f55d63><div i-ri-translate class="rotate-y-180 transition transform" data-v-07f55d63></div></button></div><div class="inline-flex items-center" p="x-1"><button class="switch switch-appearance" type="button" aria-label="Toggle Dark Mode" data-v-04afd0f3><span class="check" data-v-04afd0f3><span class="icon-wrap" data-v-04afd0f3><div class="icon" i-ri-sun-line data-v-04afd0f3></div></span></span></button></div><div class="pr-social-links pr-nav-bar-social-links" p="x-2" data-v-4030dd5a data-v-1cadd8e1><!--[--><!--]--></div><button type="button" class="pr-NavBarHamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="pr-NavScreen" data-v-1e65daf2><span class="container" data-v-1e65daf2><span class="top" data-v-1e65daf2></span><span class="middle" data-v-1e65daf2></span><span class="bottom" data-v-1e65daf2></span></span></button></div></div><!----></nav><div class="press-local-nav" data-v-c0a6e21b><button type="button" class="menu" aria-expanded="false" aria-controls="pr-sidebar-nav" data-v-c0a6e21b><div i-ri-align-left class="menu-icon" data-v-c0a6e21b></div><span class="menu-text" data-v-c0a6e21b>Menu</span></button><div class="VPLocalNavOutlineDropdown" style="--vp-vh:0px;" data-v-c0a6e21b data-v-0942f7d8><button type="button" data-v-0942f7d8>Return to top</button><!----></div></div><!--[--><!----><!--]--><!----><!--[--><main class="press-main flex has-sidebar" data-v-5431fe00><div w="full" flex="~" class="px-6 md:pl-12 has-aside relative" p="t-4" data-v-5431fe00><div class="container" flex="~ grow" justify="between" data-v-5431fe00><!--[--><div w="full" class="vp-doc content" flex="~ col grow" p="lt-md:0" data-v-5431fe00><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><!--[--><div class="max-w-6xl mx-auto w-full pb-12 px-4 sm:px-6 lg:px-8"><div class="pt-6 pb-8 space-y-2 md:space-y-5"><h1 class="text-3xl leading-9 font-extrabold text-gray-900 dark:text-gray-100 tracking-tight sm:text-4xl sm:leading-10 md:text-5xl md:leading-13">Tags</h1></div><div class="flex flex-wrap items-end gap-3 pb-8"><!--[--><button class="inline-flex items-baseline gap-1 rounded-full px-3 py-1 transition-colors border-none cursor-pointer bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400 hover:bg-primary/10 hover:text-primary" style="font-size:14px;"><span>#valaxy</span><span class="text-xs op-70">(1)</span></button><button class="inline-flex items-baseline gap-1 rounded-full px-3 py-1 transition-colors border-none cursor-pointer bg-gray-100 text-gray-600 dark:bg-gray-800 dark:text-gray-400 hover:bg-primary/10 hover:text-primary" style="font-size:14px;"><span>#笔记</span><span class="text-xs op-70">(1)</span></button><!--]--></div><!----></div><!--]--><!--]--><!--]--></div><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!--[--><!----><!----><aside id="press-page-outline" flex="~ col grow" p="l-0 xl:l-8" text="center" z="$" aria-label="On this page" class="press-aside lt-xl:fixed"><div class="aside-curtain"></div><div class="aside-container lt-xl:fixed" flex="~ col"><div class="aside-content overflow-auto" flex="~ col"><div style="display:none;" data-v-ef5345e4><div class="content" data-v-ef5345e4><div class="outline-heading" data-v-ef5345e4><div class="outline-title" data-v-ef5345e4>On this page</div><!----></div><div class="outline-marker" data-v-ef5345e4></div><nav aria-label="Table of contents for the current page" data-v-ef5345e4><ul class="root va-toc css-i18n-toc va-toc relative z-1 css-i18n-toc" data-v-ef5345e4 data-v-ebf72b81><!--[--><!--]--></ul></nav></div></div><div class="flex-grow"></div><!----></div></div></aside><!--]--><!--]--></div></div></main><!--]--><footer class="press-footer has-sidebar" data-v-8934a884><div flex="~ col" class="container" data-v-8934a884><p class="message" data-v-8934a884>Powered by <a href="https://valaxy.site">Valaxy</a></p><!----></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"site":{},"routerStore":{},"app":{"showLoading":true},"press-app":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"/#identity","@type":"Person","name":"VALAXY Developer","url":"/","image":{"@id":"/#/schema/image/1"},"sameAs":[]},{"@id":"/#website","@type":"WebSite","dateModified":"2026-08-16T15:41:46.026Z","datePublished":"2026-08-16T15:41:46.026Z","inLanguage":"en","url":"/","publisher":{"@id":"/#identity"}},{"@id":"/#webpage","@type":"WebPage","description":"My documentation site powered by Valaxy.","url":"/","about":{"@id":"/#identity"},"isPartOf":{"@id":"/#website"},"potentialAction":[{"@type":"ReadAction","target":["/"]}]},{"@id":"/#/schema/image/1","@type":"ImageObject","contentUrl":"https://valaxy.site/valaxy-logo.png","inLanguage":"en","url":"https://valaxy.site/valaxy-logo.png"}]}</script>
+  
+<!--teleport start anchor--><!----><!--teleport anchor-->
+</body>
+</html>

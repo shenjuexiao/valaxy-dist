@@ -1,0 +1,1 @@
+import{P as e}from"./theme.tk2ilLxq.js";var t=e({cast(e){return typeof e==`string`?{url:e}:e},defaults:{"@type":`VirtualLocation`}});export{t as virtualLocationResolver};

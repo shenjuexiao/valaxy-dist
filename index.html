@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/favicon.svg">
+    <script>
+    ;(function () {
+      const prefersDark =
+        window.matchMedia &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+      if (setting === 'dark' || (prefersDark && setting !== 'light'))
+        document.documentElement.classList.toggle('dark', true)
+    })()
+    </script>
+  <style type="text/css">
+    :root { color-scheme: light dark; --va-c-bg: #fff; }
+    html.dark { --va-c-bg: #000; }
+    html { background-color: var(--va-c-bg); }
+  </style><style id="valaxy-fouc">body{opacity:0!important}</style><style>body{transition:opacity .15s ease}</style><noscript><style>body{opacity:1!important}</style></noscript><script>(function foucGuardScript(maxDuration) {
+  var done = 0;
+  function reveal() {
+    if (done) return;
+    done = 1;
+    var s = document.getElementById("valaxy-fouc");
+    if (s) s.remove();
+  }
+  function check() {
+    var links = document.querySelectorAll('link[rel="stylesheet"]');
+    for (var i = 0; i < links.length; i++) {
+      if (!links[i].sheet) return;
+    }
+    reveal();
+  }
+  new MutationObserver(check).observe(document.head, {
+    childList: true,
+    attributes: true,
+    attributeFilter: ["media", "rel"]
+  });
+  addEventListener("load", reveal);
+  if (maxDuration)
+    setTimeout(reveal, maxDuration);
+})(5000)</script>
+    <script>
+    const locale = localStorage.getItem('valaxy-locale') || 'en';
+    document.documentElement.setAttribute('lang', locale);
+    </script>
+    
+  <script type="module" crossorigin src="/assets/index.EpiRtz05.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime.hePW80VL.js">
+  <link rel="modulepreload" crossorigin href="/assets/framework.CSzCw9LZ.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-i18n.DPiClx16.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/vue-router.4BejMmlS.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/dayjs.DUgotgTK.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/pinia.BB0vZneo.js">
+  <link rel="modulepreload" crossorigin href="/assets/theme.tk2ilLxq.js">
+  <link rel="modulepreload" crossorigin href="/assets/chunks/nprogress.Dew4DlVv.js">
+  <link rel="stylesheet" crossorigin href="/assets/style.DRX28IWG.css">
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.BQhdFMY1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_AMS-Regular.DMm9YOAa.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.Dq_IR9rO.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Bold.BEiXGLvX.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.Di6jR-x-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Caligraphic-Regular.CTRA-rTL.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.CL6g_b3V.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Bold.BsDP51OF.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.CTYiF6lA.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Fraktur-Regular.Dxdc4cR9.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Cx986IdX.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Bold.Jm3AIy58.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.DxDJ3AOS.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-BoldItalic.SpSLRI95.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.NWA7e6Wa.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Italic.BMLOBm91.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.B22Nviop.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Main-Regular.Dr94JaBh.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.CZnvNsCZ.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-BoldItalic.iY-2wyZ7.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.t53AETM-.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Math-Italic.DA0__PXp.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.D1sUS0GD.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Bold.DbIhKOiC.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.C3H0VqGB.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Italic.DN2j7dab.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.DDBCnlJ7.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_SansSerif-Regular.CS6fqUqJ.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D3wIWfF6.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Script-Regular.D5yQViql.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.mCD8mA8B.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size1-Regular.C195tn64.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.Dy4dx90m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size2-Regular.oD1tc_U0.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size3-Regular.CTq5MqoE.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.Dl5lxZxV.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Size4-Regular.BF-4gkZK.woff" as="font" type="font/woff" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.CO6r4hn1.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/KaTeX_Typewriter-Regular.C0xS9mPB.woff" as="font" type="font/woff" crossorigin>
+<link rel="modulepreload" crossorigin href="/assets/theme.tk2ilLxq.js">
+<link rel="modulepreload" crossorigin href="/assets/pages.Ci1cLGYk.js">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My Site</title>
+<meta property="og:locale:alternate" content="zh-CN">
+<meta name="description" content="My documentation site powered by Valaxy.">
+<meta property="og:description" content="My documentation site powered by Valaxy.">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="My Site">
+<meta property="og:title" content="My Site">
+<meta property="og:image" content="/favicon.svg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="/">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta name="generator" content="Valaxy 1.0.0-rc.6">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <div id="app"><!--[--><!--[--><!----><!--[--><!--]--><!----><!--]--><div class="layout antialiased"><nav w="full" class="press-nav relative md:fixed md:z-99 font-bold no-sidebar"><div class="pr-navbar flex justify-between items-center pl-4 pr-2"><a aria-current="page" href="/" class="router-link-active router-link-exact-active pr-navbar-brand text-xl flex justify-center items-center font-black gradient-text from-purple-800 to-blue-500 bg-gradient-to-r" aria-label="My Site"><!----><span class="pr-navbar-title inline-flex">My Site</span></a><div class="pr-navbar-actions self-stretch flex justify-center items-center text-sm leading-5"><div class="VPNavBarSearch" p="x-2"><!--[--><button class="press-search-btn" title="Search" data-v-b21be026><div class="press-search-btn-content" data-v-b21be026><svg class="press-search-btn-icon" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" data-v-b21be026><path d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" fill="currentColor" data-v-b21be026></path></svg></div></button><!--teleport start--><!--teleport end--><!--]--></div><div class="pr-nav-bar-menu flex" h="full" p="x-2" data-v-a98b6fe2><!--[--><!--[--><a aria-current="page" href="/" class="router-link-active router-link-exact-active va-link press-nav-item-link flex justify-center items-center active px-2" rel="noopener" data-v-a98b6fe2 data-v-aa487131><!--[-->Home<!--]--></a><!--]--><!--]--></div><div class="flex items-center" h="full" p="x-2"><button title="Change languages" data-v-07f55d63><div i-ri-translate class="rotate-y-180 transition transform" data-v-07f55d63></div></button></div><div class="inline-flex items-center" p="x-1"><button class="switch switch-appearance" type="button" aria-label="Toggle Dark Mode" data-v-04afd0f3><span class="check" data-v-04afd0f3><span class="icon-wrap" data-v-04afd0f3><div class="icon" i-ri-sun-line data-v-04afd0f3></div></span></span></button></div><div class="pr-social-links pr-nav-bar-social-links" p="x-2" data-v-4030dd5a data-v-1cadd8e1><!--[--><!--]--></div><button type="button" class="pr-NavBarHamburger" aria-label="mobile navigation" aria-expanded="false" aria-controls="pr-NavScreen" data-v-1e65daf2><span class="container" data-v-1e65daf2><span class="top" data-v-1e65daf2></span><span class="middle" data-v-1e65daf2></span><span class="bottom" data-v-1e65daf2></span></span></button></div></div><!----></nav><!----><!--[--><!----><!--]--><!----><!--[--><div class="press-home" style="--va-code-mobile-margin-x:0;"><!--[--><!--]--><!--[--><div text="center" m="md:t-24 t-10 md:t-20" flex="~ col" justify="center" items="center" data-v-cdb4ae9e><!----><h1 my="10" text="4xl md:8xl" font="black" class="gradient-text from-purple-800 to-blue-500 bg-gradient-to-r" data-v-cdb4ae9e>My Site</h1></div><h2 flex="~ wrap justify-center" px="2" m="b-10" text="center 6xl" font="black" leading="tight" data-v-cdb4ae9e>Welcome to My Site</h2><p m="b-10" text="center xl" op="80" data-v-cdb4ae9e>Powered by Valaxy</p><div p="2" text="center" class="flex justify-center items-center" data-v-cdb4ae9e><!--[--><!--[--><a aria-current="page" href="/" class="router-link-active router-link-exact-active va-link bg-gradient-to-r from-purple-700 to-indigo-600 sese-btn btn transition rounded-full hover:shadow-md" m="2" p="x-6" data-v-cdb4ae9e><!--[--><!--[-->Get Started<!--]--><!--]--></a><!--]--><!--]--></div><br data-v-cdb4ae9e><!--]--><!--[--><!--]--><!--[--><!--]--><div class="press-features press-home-features"><div p="x-6" class="grid-cols-1 sm:grid-cols-2 md:grid-cols-3 m-auto grid gap-4 max-w-$pr-layout-max-width"><!--[--><div class="inline-grid"><article class="press-feature" data-v-0c750836><div class="icon" data-v-0c750836><div class="i-ri-book-2-line" data-v-0c750836></div></div><h2 class="title" data-v-0c750836>Documentation</h2><p class="details" data-v-0c750836>Write docs with Markdown and Vue components.</p></article></div><div class="inline-grid"><article class="press-feature" data-v-0c750836><div class="icon" data-v-0c750836><div class="i-ri-flashlight-line" data-v-0c750836></div></div><h2 class="title" data-v-0c750836>Fast</h2><p class="details" data-v-0c750836>Powered by Vite for instant HMR and fast builds.</p></article></div><div class="inline-grid"><article class="press-feature" data-v-0c750836><div class="icon" data-v-0c750836><div class="i-ri-palette-line" data-v-0c750836></div></div><h2 class="title" data-v-0c750836>Customizable</h2><p class="details" data-v-0c750836>Fully customizable theme with flexible configuration.</p></article></div><!--]--></div></div><!--[--><!--]--><!--[--><main class="press-main flex" data-v-5431fe00><div w="full" flex="~" class="relative" p="t-4" data-v-5431fe00><div class="container" flex="~ grow" justify="between" data-v-5431fe00><!--[--><div w="full" class="m-auto vp-doc content" flex="~ col grow" p="lt-md:0" data-v-5431fe00><!--[--><!--]--><!--[--><!--]--><!--[--><!--[--><!--]--><article class="markdown-body mx-auto w-full max-w-4xl" data-v-5431fe00><!--[--><!--]--><!----><!----></article><!--[--><!--]--><!----><!--]--></div><!--[--><!--]--><!--[--><!--]--><!--[--><!--]--><!----><!--[--><!--]--><!--]--><!--[--><!----><!--]--></div></div></main><!--]--></div><!--]--><footer class="press-footer" data-v-8934a884><div flex="~ col" class="container" data-v-8934a884><p class="message" data-v-8934a884>Powered by <a href="https://valaxy.site">Valaxy</a></p><!----></div></footer></div><!--]--></div><script>window.__INITIAL_STATE__='{"pinia":{"app":{"showLoading":true},"routerStore":{}}}'</script><script type="application/ld+json" data-hid="schema-org-graph">{"@context":"https://schema.org","@graph":[{"@id":"/#identity","@type":"Person","name":"VALAXY Developer","url":"/","image":{"@id":"/#/schema/image/1"},"sameAs":[]},{"@id":"/#website","@type":"WebSite","dateModified":"2026-08-16T15:41:46.026Z","datePublished":"2026-08-16T15:41:46.026Z","inLanguage":"en","url":"/","publisher":{"@id":"/#identity"}},{"@id":"/#webpage","@type":"WebPage","description":"My documentation site powered by Valaxy.","url":"/","about":{"@id":"/#identity"},"isPartOf":{"@id":"/#website"},"potentialAction":[{"@type":"ReadAction","target":["/"]}]},{"@id":"/#/schema/image/1","@type":"ImageObject","contentUrl":"https://valaxy.site/valaxy-logo.png","inLanguage":"en","url":"https://valaxy.site/valaxy-logo.png"}]}</script>
+  
+<!--teleport start anchor--><!----><!--teleport anchor-->
+</body>
+</html>
