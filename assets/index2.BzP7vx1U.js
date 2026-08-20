@@ -1,1 +1,0 @@
-import{P as e}from"./theme.tk2ilLxq.js";var t=e({defaults:{"@type":`AggregateRating`}});export{t as aggregateRatingResolver};
